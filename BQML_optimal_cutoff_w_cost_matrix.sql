@@ -40,7 +40,7 @@ FROM
 ;
 
 
-# create a synthetic training dataset suitable for binary classification
+# create a synthetic test dataset suitable for binary classification
 CREATE OR REPLACE TABLE `example_ds.synthetic_data_test` AS
 SELECT
     RAND() AS feature1
